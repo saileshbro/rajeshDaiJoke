@@ -18,7 +18,8 @@ function getJoke(){
             joke = joke.replace('Norris','Dai');
             joke = joke.replace('Chuck','Rajesh');
             joke = joke.replace('Norris','Dai');
-            console.log(joke);
+            document.querySelector('.jokeArea').innerHTML = "";
+            document.querySelector('.jokeArea').innerHTML = joke;
         }
     }
 }
